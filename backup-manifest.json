@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-12T14:25:24.1658368+08:00",
+  "source": "Local user-level Codex skills directory",
+  "skill_count": 7,
+  "file_count": 27,
+  "skills": [
+    "think-like-i11usion",
+    "work-like-i11usion",
+    "plan-review-implement-review",
+    "planner-doc-review",
+    "prepare-development-step",
+    "karpathy-guidelines",
+    "no-negative-echo"
+  ],
+  "files": [
+    {
+      "path": "skills/karpathy-guidelines/agents/openai.yaml",
+      "bytes": 285,
+      "sha256": "ed87cb654595823accb61dfbd5248058bd5eb66e52a5c0a50c81bcb120356731",
+      "git_blob_sha": "6dac7407a321c829aa4e8ed86d3e20f4a1471099"
+    },
+    {
+      "path": "skills/karpathy-guidelines/README.md",
+      "bytes": 1321,
+      "sha256": "e9e3f9659a772f3507b3ac7d2abab367da0c327dd79972d47fe02b44efe026a5",
+      "git_blob_sha": "5f53b4c43325026cac8b031f45108f1d30bb7fa1"
+    },
+    {
+      "path": "skills/karpathy-guidelines/SKILL.md",
+      "bytes": 3004,
+      "sha256": "9cd78ee1b751b7a7d539be01f77247e3f799ec546b0d98b10572efdb04d9883a",
+      "git_blob_sha": "d72ed463796142385bd38594a2c438f7d99eed6b"
+    },
+    {
+      "path": "skills/no-negative-echo/.no-negative-echo-provenance.json",
+      "bytes": 848,
+      "sha256": "d42280b21f519ea00e417c68f31c68ca3d7faae607faf6dcb6e04beeff9c5ed6",
+      "git_blob_sha": "8ce6c8ae5f554ff109adc2ca65f5fdf5f438180e"
+    },
+    {
+      "path": "skills/no-negative-echo/agents/openai.yaml",
+      "bytes": 393,
+      "sha256": "52252e049b122733259dc17f17d54359b4e6445eed1482c393e7744a6f8e9a4c",
+      "git_blob_sha": "103d73abb3566d01e36b92223508ca57d90c428c"
+    },
+    {
+      "path": "skills/no-negative-echo/assets/decision-boundary.png",
+      "bytes": 1622570,
+      "sha256": "3c80021dc245b4a3fe02a18434fc200fae0db3810c8fd451acc25bfb2e831d7a",
+      "git_blob_sha": "eaff0d160ec233e9060bc5a11357201bafb29a0c"
+    },
+    {
+      "path": "skills/no-negative-echo/assets/icon-400.png",
+      "bytes": 133690,
+      "sha256": "9ba3b39b106a1f6b6a376a4ccf91373e8f80923d87ca244892c35c7f95a1a121",
+      "git_blob_sha": "b5816b5fe8fc9987500ad31828f20f46b6b1ed28"
+    },
+    {
+      "path": "skills/no-negative-echo/assets/icon.png",
+      "bytes": 950581,
+      "sha256": "052b7bf0101ab53cbfe2a909155d36df7554acbfbefeefbe94f00e5cf2e74b74",
+      "git_blob_sha": "9a1ac21a086f4f46b818952b0abc39d32aff920a"
+    },
+    {
+      "path": "skills/no-negative-echo/references/high-assurance-finalization.md",
+      "bytes": 5279,
+      "sha256": "63e0e888249a008937abb06162623f4f5434b99733e673445e86cd7bbcb48d1a",
+      "git_blob_sha": "6650803dc898950d81758bf20a9e775eb6e5242d"
+    },
+    {
+      "path": "skills/no-negative-echo/scripts/check_surface.py",
+      "bytes": 10373,
+      "sha256": "d63a03fb1052706e1e5d1b23d413251dff5690e0c3e837c069826de6fe06661b",
+      "git_blob_sha": "10a43363d955435bb258313c2ed5f7a9a5f182ba"
+    },
+    {
+      "path": "skills/no-negative-echo/SKILL.md",
+      "bytes": 3877,
+      "sha256": "7285b7e2a1d22284c92a4cb68703b427da59952682268178f53bc74093381a25",
+      "git_blob_sha": "2bccf494a189862e41ab4be210067e583515a55f"
+    },
+    {
+      "path": "skills/plan-review-implement-review/agents/openai.yaml",
+      "bytes": 338,
+      "sha256": "d5dc1e38e38cfc40725db80cc645d3e126b4181e0f6890878eecbd150308c73f",
+      "git_blob_sha": "9d9db17c07a3f8049d5bee436d3f22de827e2c51"
+    },
+    {
+      "path": "skills/plan-review-implement-review/references/final-review-and-closeout.md",
+      "bytes": 8413,
+      "sha256": "12ae8a34b63f5180c37f69b351f6621f59e2e642509852fc3852c6ec70551ad8",
+      "git_blob_sha": "d007b40a98f8f87d0d533d0000f753277cf09c0b"
+    },
+    {
+      "path": "skills/plan-review-implement-review/references/implementation-and-evidence.md",
+      "bytes": 6475,
+      "sha256": "90bec6d093c2203299aadded9435125c10cb240bb5724f716a8e0033126b167e",
+      "git_blob_sha": "9b89fee5019ad87fe75380e4059f1eb8eeb47752"
+    },
+    {
+      "path": "skills/plan-review-implement-review/references/planning-and-plan-review.md",
+      "bytes": 8331,
+      "sha256": "f2ad04a6f1f8a5d7934c622f81e09535f83c2e386a2d70812dba44b7d47d260d",
+      "git_blob_sha": "9e8fc4d66de2e6f3fa6ceb74a77a6de21752932c"
+    },
+    {
+      "path": "skills/plan-review-implement-review/SKILL.md",
+      "bytes": 10417,
+      "sha256": "1ea0f37fcb768b300cd2fb2cc2fbce522ab808f7fd535fd8a48864e96a901ab1",
+      "git_blob_sha": "042f936cde394f59043ebfd3f612a9319a89931e"
+    },
+    {
+      "path": "skills/planner-doc-review/SKILL.md",
+      "bytes": 28458,
+      "sha256": "6127b54110798f8d6b999354af0e41d2b89d5295a754c1a06c7cadc2ed386029",
+      "git_blob_sha": "756e725550d772606dd97db8c70603cc052c66c1"
+    },
+    {
+      "path": "skills/prepare-development-step/agents/openai.yaml",
+      "bytes": 283,
+      "sha256": "71c36c893d14d29ed5a3ade4411f7be86a684d31f8111ce70ce5b8760101a870",
+      "git_blob_sha": "519ce6af9c2c6a7faf76c8168d40406680f78668"
+    },
+    {
+      "path": "skills/prepare-development-step/SKILL.md",
+      "bytes": 19214,
+      "sha256": "387f06c55a728319e3fc23eba547158360b4b8a21b56b611a407f75a2f98d35d",
+      "git_blob_sha": "1869a533a812ef78027eb347a37a4598d63418ec"
+    },
+    {
+      "path": "skills/think-like-i11usion/agents/openai.yaml",
+      "bytes": 123,
+      "sha256": "06100a5493f89727d40a6287714fec266bef8fbec7097f1d1ea8f583c8310676",
+      "git_blob_sha": "56482e86197c6a4541058783d560075d010f4f8f"
+    },
+    {
+      "path": "skills/think-like-i11usion/references/planner-review.md",
+      "bytes": 3405,
+      "sha256": "1c95590cae575ec399b6564355fcda80a1119cb4f9cf8bacec28f77415a38445",
+      "git_blob_sha": "c607f2243562c7bb71ea7c04f87f6fc57a9e4136"
+    },
+    {
+      "path": "skills/think-like-i11usion/references/planning-contract.md",
+      "bytes": 7892,
+      "sha256": "f030bf9f1b544efe45f862bbf9c554e885ae34fa1ffc212684a2d8467b2501d0",
+      "git_blob_sha": "6ca15f3c86c6dd71eed2c54d5484821f6c78f018"
+    },
+    {
+      "path": "skills/think-like-i11usion/SKILL.md",
+      "bytes": 5528,
+      "sha256": "e2da0ebafe5d6156e4fe97b3fef4bb7d793bbf91b813f2ffa909191620fe50f7",
+      "git_blob_sha": "720abdeecc638467c26670ac3a40fd42956370ca"
+    },
+    {
+      "path": "skills/work-like-i11usion/agents/openai.yaml",
+      "bytes": 127,
+      "sha256": "f72c9fc1a4ddf4d8f1321efc70a492934c08abded0cdf8e102d5bd178836a5d2",
+      "git_blob_sha": "150442c59282b8554e5c96b5243c7c475900562c"
+    },
+    {
+      "path": "skills/work-like-i11usion/references/developer-report.md",
+      "bytes": 3234,
+      "sha256": "1a9e1d1ebbd9f48529d5b6e219d4645d3544feb6be1a868a238817815cfc58df",
+      "git_blob_sha": "1b7ee7dc2753baf3a354903199bb8665f2ba5985"
+    },
+    {
+      "path": "skills/work-like-i11usion/references/implementation-workflow.md",
+      "bytes": 6715,
+      "sha256": "6c31a95d7f7277afc60aba1cea01d6697134a0dc08822c4e70e816aa6c087b1c",
+      "git_blob_sha": "a7e9d16dd3ec0b41d9415e60b9bc60fd13b025ff"
+    },
+    {
+      "path": "skills/work-like-i11usion/SKILL.md",
+      "bytes": 7241,
+      "sha256": "a20184858e2a24e8eda6fd4b066a3cd50b11392dd0e4a665f5f332bd2e2a34c3",
+      "git_blob_sha": "2e6722b0e7868a2f584762aeae191cab7bf803bc"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Review Implement Review"
+  short_description: "Plan, review, implement, re-review, and close one step"
+  default_prompt: "Use $plan-review-implement-review to run one bounded repository step through planning, risk-based plan review, implementation, independent final review, and approval-gated closeout."
