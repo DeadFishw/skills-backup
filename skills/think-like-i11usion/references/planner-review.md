@@ -1,96 +1,23 @@
-# Planner Review
+# Evidence review
 
-Use this reference after implementation to review actual evidence against the approved plan.
+Use [workflow-protocol.md](workflow-protocol.md) for record identity, criterion results, verdicts, and historical compatibility.
 
-## Evidence to Inspect
+## Review a plan
 
-Inspect, as applicable:
+Inspect the plan's assumptions against relevant source and constraints. Check whether scope is coherent, alternatives were meaningfully considered, criteria are observable, and risky behavior has direct evidence planned. Return the plan-review verdict and specific blocking findings. Review is advisory; it does not grant execution authority.
 
-- the approved current plan;
-- the developer report appended to it;
-- the actual diff and relevant source files;
-- tests added or changed and what they assert;
-- exact command results;
-- generated artifacts;
-- unresolved warnings or failures;
-- commit and push state when those are part of the plan.
+## Review implementation
 
-Use the developer report as an evidence index and confirm its claims through inspection. Distinguish local, test, branch, staging, and production evidence, and reserve production claims for production evidence.
+Read the approved baseline and latest relevant developer report, then inspect the actual source, complete task-owned diff, tests, artifacts, and command evidence. For uncommitted work identify the exact patch or file hashes. Verify claimed commits and artifacts exist.
 
-## Review Method
+Assess every criterion as PASS, FAIL, or INSUFFICIENT_EVIDENCE. Check preserved behavior, related error paths, scope, and meaningful regression coverage. Passing broad tests cannot replace missing proof of a required behavior. Reuse trustworthy passing evidence for unchanged code; rerun focused checks when needed to resolve a finding.
 
-Assess every acceptance criterion individually as **Pass**, **Fail**, or **Insufficient Evidence**. For each assessment, name the inspected evidence and explain the finding.
+Separate the original contract from developer-added status. A report cannot approve itself or weaken acceptance criteria. For multiple explicitly scoped plans, produce separate assessments. A missing report is an evidence gap, not permission to invent it.
 
-Also verify:
+Unrelated dirty work is non-blocking only if it predates or is outside the task, the implementation does not depend on it, and the contract does not require a clean workspace. Otherwise identify the unresolved ownership or dependency.
 
-- all required behavior is present;
-- preserved behavior and public interfaces remain intact;
-- the implementation remains within the approved scope;
-- applicable project instructions were followed;
-- tests assert the required behavior and meaningful edge cases;
-- reported commands and outcomes are supported;
-- deviations and unresolved warnings are disclosed;
-- documentation matches actual behavior.
+Return a compact record: review stage, reviewer identity, plan and implementation references, evidence inspected, criterion table, blocking findings, non-blocking notes, verdict, and next action. Each finding needs location, impact, evidence, and a concrete correction. Distinguish verified defects from suggestions.
 
-Keep the approved criteria stable during review. When an approved requirement genuinely changed during implementation, document that change separately before assessing the revised criterion.
+Never describe self-review as independent review. When independence is required, a separate reviewer must inspect the evidence; inability to provide one is REVIEW_UNAVAILABLE. A standalone review may be performed by the current agent and must state its actual role.
 
-If multiple plan documents are independently active, review each against its own criteria and append a separate verdict for each plan.
-
-Append the review after the corresponding developer report when the task authorizes updating the plan. Check for an existing review of the same evidence before appending.
-
-## Verdicts
-
-- **Accepted:** every required criterion is supported by sufficient evidence and the implementation remains within the approved scope.
-- **Changes Required:** the implementation is substantially present, but one or more correctable criteria are unmet.
-- **Blocked:** necessary evidence is unavailable, authoritative sources conflict, validation remains incomplete, or a fundamental plan assumption is invalid.
-
-Assign **Blocked** when required evidence is missing.
-
-## Recommended Review Shape
-
-```markdown
-## Planner Review — <date or review identifier>
-
-### Verdict
-
-Accepted | Changes Required | Blocked
-
-### Evidence Reviewed
-
-- Plan sections examined.
-- Diff and files inspected.
-- Commands and results verified.
-- Artifacts inspected.
-
-### Acceptance-Criteria Assessment
-
-1. Criterion: Pass | Fail | Insufficient Evidence
-   - Evidence:
-   - Finding:
-
-### Scope Assessment
-
-State whether the implementation remained within scope and preserved required behavior.
-
-### Issues
-
-List concrete defects, omissions, unsupported claims, warnings, or deviations.
-
-### Required Next Action
-
-State the smallest action needed to close the review.
-```
-
-## Review Completion Check
-
-Review is complete when:
-
-- actual implementation evidence has been inspected;
-- every criterion has an explicit assessment;
-- scope and preserved behavior have been checked;
-- missing or environment-limited evidence remains visible;
-- the verdict is supported by the evidence;
-- the authorized review is appended once to the correct plan for the inspected evidence set;
-- the smallest required next action is stated.
-
-Then stop.
+Return the verdict and stop. Append a record or update status only when authorized. Review-only requests do not authorize implementation, archival, reset, commit, push, merge, or deployment.

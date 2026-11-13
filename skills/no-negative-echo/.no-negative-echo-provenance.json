@@ -10,5 +10,17 @@
     "assets/icon.png": "052b7bf0101ab53cbfe2a909155d36df7554acbfbefeefbe94f00e5cf2e74b74",
     "references/high-assurance-finalization.md": "63e0e888249a008937abb06162623f4f5434b99733e673445e86cd7bbcb48d1a",
     "scripts/check_surface.py": "d63a03fb1052706e1e5d1b23d413251dff5690e0c3e837c069826de6fe06661b"
-  }
+  },
+  "hashes_describe": "Imported upstream file hashes; local amendments are listed separately.",
+  "local_modifications": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "Narrowed selection description and stated optional finalization role",
+        "Added upstream MIT LICENSE and attribution"
+      ],
+      "license_source": "https://github.com/LB623/no-negative-echo/blob/main/LICENSE",
+      "license_blob_sha": "1e71c48f988018b050d3293bcdc18bd4ab10669f"
+    }
+  ]
 }

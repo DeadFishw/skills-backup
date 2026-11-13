@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-13",
+  "baseline_commit": "4f608910f4041b82641fa488f440816bea6da173",
+  "skill_count": 4,
+  "file_count": 20,
+  "skills": [
+    "think-like-i11usion",
+    "work-like-i11usion",
+    "plan-review-implement-review",
+    "no-negative-echo"
+  ],
+  "files": [
+    {
+      "path": "skills/no-negative-echo/.no-negative-echo-provenance.json",
+      "bytes": 1332,
+      "sha256": "b15fd27d9fc61070740afa5e026836169569d182828c0929072d3c5cf28b6162"
+    },
+    {
+      "path": "skills/no-negative-echo/agents/openai.yaml",
+      "bytes": 393,
+      "sha256": "52252e049b122733259dc17f17d54359b4e6445eed1482c393e7744a6f8e9a4c"
+    },
+    {
+      "path": "skills/no-negative-echo/assets/decision-boundary.png",
+      "bytes": 1622570,
+      "sha256": "3c80021dc245b4a3fe02a18434fc200fae0db3810c8fd451acc25bfb2e831d7a"
+    },
+    {
+      "path": "skills/no-negative-echo/assets/icon-400.png",
+      "bytes": 133690,
+      "sha256": "9ba3b39b106a1f6b6a376a4ccf91373e8f80923d87ca244892c35c7f95a1a121"
+    },
+    {
+      "path": "skills/no-negative-echo/assets/icon.png",
+      "bytes": 950581,
+      "sha256": "052b7bf0101ab53cbfe2a909155d36df7554acbfbefeefbe94f00e5cf2e74b74"
+    },
+    {
+      "path": "skills/no-negative-echo/LICENSE",
+      "bytes": 1062,
+      "sha256": "49f90d79b088ae3836e6c97dc805143015762acc0e6975f75d18c2316dabc221"
+    },
+    {
+      "path": "skills/no-negative-echo/references/high-assurance-finalization.md",
+      "bytes": 5279,
+      "sha256": "63e0e888249a008937abb06162623f4f5434b99733e673445e86cd7bbcb48d1a"
+    },
+    {
+      "path": "skills/no-negative-echo/scripts/check_surface.py",
+      "bytes": 10373,
+      "sha256": "d63a03fb1052706e1e5d1b23d413251dff5690e0c3e837c069826de6fe06661b"
+    },
+    {
+      "path": "skills/no-negative-echo/SKILL.md",
+      "bytes": 3961,
+      "sha256": "8a1a10ceab80236c13fe4876de9750bb9217ed4ed8d442bfe8999f0c5f0963b5"
+    },
+    {
+      "path": "skills/plan-review-implement-review/agents/openai.yaml",
+      "bytes": 262,
+      "sha256": "52f68262c24f50e427fa0b89f1e1bd00f2d3016ff78462eda982d87379eda3d4"
+    },
+    {
+      "path": "skills/plan-review-implement-review/references/closeout.md",
+      "bytes": 2247,
+      "sha256": "3eb0c842ec9db9d6d6187eea4ef081c9c7cdf95d53e7ceff27f30507b1fec8b9"
+    },
+    {
+      "path": "skills/plan-review-implement-review/references/lifecycle.md",
+      "bytes": 4060,
+      "sha256": "62809300078ade9376d56de30c74ad92d481babceba3dca950b3b7a7ce49cd58"
+    },
+    {
+      "path": "skills/plan-review-implement-review/SKILL.md",
+      "bytes": 2485,
+      "sha256": "532cdc4f43023dd86c9cf9681f50849f1ad84cbe1578fce00a62dcca8ecaea5b"
+    },
+    {
+      "path": "skills/think-like-i11usion/agents/openai.yaml",
+      "bytes": 115,
+      "sha256": "c257d158def7e5f786f237525abe1e71f438c9bc12b5657a3c1fab3b94d6dc5b"
+    },
+    {
+      "path": "skills/think-like-i11usion/references/planner-review.md",
+      "bytes": 2414,
+      "sha256": "60abb4327d1eda514f2f88f660cffb5d849d12c388b33e48053fa7dcb35f1169"
+    },
+    {
+      "path": "skills/think-like-i11usion/references/planning-contract.md",
+      "bytes": 2558,
+      "sha256": "e221b073bf1c642fd3bfae18fa76e8dafe85e81b382874358a0883bd4fb620a9"
+    },
+    {
+      "path": "skills/think-like-i11usion/references/workflow-protocol.md",
+      "bytes": 6264,
+      "sha256": "0d548fc8fb2edc2219929dab91fc2ab86528f05e7a73e923740050b03a88109e"
+    },
+    {
+      "path": "skills/think-like-i11usion/SKILL.md",
+      "bytes": 2007,
+      "sha256": "1a2434edfd6c1ffa99f407e0dcdc8e4f70d50d2a414f24d26e4f3ce4919f2935"
+    },
+    {
+      "path": "skills/work-like-i11usion/agents/openai.yaml",
+      "bytes": 123,
+      "sha256": "0f76664617f3fcd26e35968483ae52d4f023fc9a315488e914d5285884a3f27e"
+    },
+    {
+      "path": "skills/work-like-i11usion/SKILL.md",
+      "bytes": 3169,
+      "sha256": "7b45d3e97b2cdfb711f3986f4a2aba4abd5d156160cd8b45b49e1b55c3cb79e6"
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 ---
 name: no-negative-echo
-description: "Prevent 此地无银三百两式 residue: finalize artifacts without echoing rejected session-only alternatives into labels, metadata, commits, PRs, or handoffs. Use after corrections or discarded proposals. Not for ordinary deletion, deprecation, migration, or exclusions materially required for safety, accuracy, compatibility, audit, quotation, or requested comparison."
+description: "Finalize deliverables after the user rejects wording, names, or proposals, keeping irrelevant discarded alternatives out of final surfaces. Preserve required safety, audit, compatibility, and comparison facts."
+license: MIT
 ---
 
 # No Negative Echo
 
 Describe the accepted result as if the audience never saw the working session. Treat rejected proposals and user corrections as control data, not as the result's identity.
+
+Use this as an optional finalization aid, separate from the development lifecycle. Attribution and permission are preserved in [LICENSE](LICENSE); upstream source: [LB623/no-negative-echo](https://github.com/LB623/no-negative-echo).
 
 ## Decide what belongs
 

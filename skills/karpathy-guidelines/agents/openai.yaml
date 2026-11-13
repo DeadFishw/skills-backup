@@ -1,4 +1,0 @@
-interface:
-  display_name: "Karpathy Guidelines"
-  short_description: "Careful coding rules for writing, debugging, and refactoring"
-  default_prompt: "Use $karpathy-guidelines to handle this coding task with explicit assumptions, simple code, surgical edits, and clear verification."
